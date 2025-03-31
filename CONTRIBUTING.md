@@ -9,6 +9,6 @@ We welcome contributions to this project! If you’d like to help out, please re
 
 Feel free to contact me with any questions or suggestions:
 - GitHub: [https://github.com/Kingolele)]
-- Email: [kingoung1@gmail.com]
+- Email: [aurius.king@gmail.com]
 
 Thanks for your interest in contributing!
