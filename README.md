@@ -19,7 +19,7 @@ At Aurius, our mission is to revolutionize accessibility and personalization in 
 
 ## Materials and Design  
 - Recommended filament: Filaflex 82A or similar TPE  
-- Compatible with Bambu Labs A1 Printer  
+- Compatible with Bambu Labs A1 Printer, adjust printer settings accordingly when using the print files
 - CAD files available in STL and 3MF formats
 
 ## Roadmap  
