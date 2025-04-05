@@ -4,7 +4,7 @@ Open-source project for 3D-printed prosthetic ears.
 At Aurius, our mission is to revolutionize accessibility and personalization in prosthetic ear design through cutting-edge 3D printing technology. We strive to provide affordable, accessible, and aesthetically realistic solutions for individuals with microtia, empowering them with greater confidence and self-expression. By leveraging innovative materials and user-centered design, we aim to bridge the gap between medical necessity and unique personal identity, ensuring that every individual has access to high-quality, customizable prosthetics that seamlessly integrate into their lives.
 
 ## Features  
-- Customizable ear designs using flexible TPE materials
+- Customizable ear designs using flexible TPE/TPU materials
 - Accessible and cost-effective open-sourced designs, easily 3D printed
 - Generated using LiDAR technology, ensuring accurate and proportional prosthetic solutions
 - Magnet/clip-on attachment options
@@ -18,8 +18,8 @@ At Aurius, our mission is to revolutionize accessibility and personalization in 
 - Customize and alter the design as needed with CAD files provided in the `models` folder.
 
 ## Materials and Design  
-- Recommended filament: Filaflex 82A or similar TPE  
-- Compatible with Bambu Labs A1 Printer, adjust printer settings accordingly when using the print files
+- Recommended filament: Filaflex 82A or similar TPE/TPU  
+- Compatible with Bambu Labs Printers, adjust printer settings accordingly when using the print files
 - CAD files available in STL and 3MF formats
 
 ## Roadmap  
