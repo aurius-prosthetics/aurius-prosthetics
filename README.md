@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # aurius-prosthetics 🦻
 Open-source project for 3D-printed prosthetic ears.
 
