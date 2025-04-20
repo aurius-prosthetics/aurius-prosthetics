@@ -8,7 +8,7 @@ We welcome contributions to this project! If you’d like to help out, please re
 3. Submit a pull request with your changes.
 
 Feel free to contact me with any questions or suggestions:
-- GitHub: [https://github.com/aurius-prosethetics]
+- GitHub: [https://github.com/aurius-prosthetics]
 - Email: [aurius.king@gmail.com]
 
 Thanks for your interest in contributing!
