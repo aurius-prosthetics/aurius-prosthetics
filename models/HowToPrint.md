@@ -21,6 +21,7 @@ To create your own custom ear instead of using one of my presets is simple as we
 ## Printing
   To print, simply slice the plate with all the presets included, then press print plate to send it to your 3D Printer.
   As for the 3D Printers, I used the Bambu Labs A1 without AMS, which works fine. Other similar printers should work great too, just remember not to use AMS and just use the external spool, since TPU tends to clog and get stuck in the AMS tubes. 
+  The included Textured PEI plate also works, but it can have some tricky bed adhesion problems, just make sure you keep the plate clean, and be patient when removing the finalized print from the bed. Use a razor blade or a sharp tool to slowly detach the model from the bed.
 
 ### Printing Precautions
   One of the most important things about printing in TPU is **to print slow**. This is the most important setting no matter what type of TPU you are using, and I recommend trying to print at around 15-25 mm/s, just to get a high quality print. 
