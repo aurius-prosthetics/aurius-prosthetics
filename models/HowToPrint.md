@@ -3,6 +3,7 @@
 ## Downloading Files & Presets
   Download the appropriate files in the **models** folder. I have included a couple different template versions that you can choose from, and they are all in the .3mf file, which can be directly exported to Bambu Studio. After downloading the file and opening it in Bambu Studio, download the appropriate **print preset** and **filament preset** and import it to the Bambu slicer. 
   The presets I have included in the PrintPreset folder is for the Filaflex 82a filament, which can be purchased here: 
+  
   https://recreus.com/en-en/products/filaflex-82a?srsltid=AfmBOoqNMySuH6reLeulJEIT0YAuwA3GcN3e-P-xPYN-MZfMMSvyjS4r
 
   If you have a slightly different TPU or with a similar shore hardness, you could try using the presets, which should still work, but may need some fine tuning. If you are printing in PLA, normal settings should work fine since it is a lot less complex.
