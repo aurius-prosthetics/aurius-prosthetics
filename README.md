@@ -24,7 +24,7 @@ Hi, my name is King Oung, and I am the founder of Aurius, an open-source assisti
 
 ## Roadmap 🗺️
 - [x] Initial prototype development (LiDAR, designing/modelling, developing a working formula)
-- [ ] Testing and refinement of attachment methods, different materials, shapes, and sizes
+- [x] Testing and refinement of attachment methods, different materials, shapes, and sizes
 - [ ] Community feedback and design improvements  
 - [ ] Collaboration with medical professionals for ergonomic adjustments and potential industry contributions  
 
