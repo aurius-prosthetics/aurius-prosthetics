@@ -43,15 +43,18 @@ By leveraging innovative materials and user-centered design, we bridge the gap b
 
 ```
 aurius-prosthetics/
-├── models/                 # 3D printable files
-│   ├── 3MF/               # Ready-to-print files
-│   └── STL/               # Standard CAD files
-├── docs/                  # Documentation
-│   ├── printing-guide.md
-│   ├── assembly-guide.md
-│   └── material-specs.md
-├── images/                # Photos and diagrams
-└── examples/              # Sample prints and cases
+├── models/                    # 3D printable files
+│   ├── Ear1.3mf              # Prosthetic ear model #1
+│   ├── Ear2.3mf              # Prosthetic ear model #2
+│   ├── Ear3.3mf              # Prosthetic ear model #3
+│   └── README Before Printing.md  # Important pre-print instructions
+├── HowToPrint.md             # Step-by-step printing instructions
+├── assembly-guide.md         # Assembly and attachment methods
+├── material-specs.md         # Material specifications and settings
+├── CONTRIBUTING.md           # Guidelines for contributors
+├── LICENSE                   # MIT License
+├── index.html               # Project website page
+└── README.md                # This file
 ```
 
 ## 📖 Detailed Guides
