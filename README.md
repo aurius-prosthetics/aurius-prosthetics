@@ -78,7 +78,7 @@ We welcome contributions from the community! Whether you're a:
 
 ## 💬 Community & Support
 
-- **Questions?** Open an [issue](../../issues) or reach out directly
+- **Questions?** Reach out directly or open an issue
 - **Success Stories** - We'd love to hear about your prints!
 - **Medical Consultation** - Always consult healthcare professionals for medical advice
 
