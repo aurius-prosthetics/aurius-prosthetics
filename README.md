@@ -76,11 +76,6 @@ We welcome contributions from the community! Whether you're a:
 - **User** - Share feedback and experiences
 - **Maker** - Test prints and suggest improvements
 
-Please read our [Contributing Guidelines](CONTRIBUTING.md) and feel free to:
-- 🐛 [Report issues](../../issues)
-- 💡 [Suggest features](../../issues)
-- 🔄 [Submit pull requests](../../pulls)
-
 ## 💬 Community & Support
 
 - **Questions?** Open an [issue](../../issues) or reach out directly
