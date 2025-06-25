@@ -64,8 +64,8 @@ aurius-prosthetics/
 
 - [x] **Phase 1:** Initial prototype development (LiDAR scanning, modeling)
 - [x] **Phase 2:** Testing attachment methods and materials
-- [ ] **Phase 3:** Community feedback integration
-- [ ] **Phase 4:** Medical professional collaboration
+- [x] **Phase 3:** Community feedback integration
+- [x] **Phase 4:** Medical professional collaboration
 - [ ] **Phase 5:** Industry partnerships and scaling
 
 ## 🤝 Contributing
