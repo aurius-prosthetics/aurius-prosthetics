@@ -1,12 +1,9 @@
 # Aurius Prosthetics 🦻
-**Open-source initiative for 3D-printed prosthetic ears**
----
+**Open-source initiative for 3D-printed prosthetic ears**   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 --- 
-
 [🌐 Visit Our Website](aurius.tw) | [📧 Contact Us](aurius.king@gmail.com)
-
 ---
 
 ## About Aurius
