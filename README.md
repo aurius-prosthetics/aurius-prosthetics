@@ -31,8 +31,7 @@ By leveraging innovative materials and user-centered design, we bridge the gap b
 ### Printing Process
 1. **Download** your desired `.3MF` file from the [models folder](./models)
 2. **Print** using TPE/TPU filament for flexibility (PLA works for prototypes)
-3. **Assemble** following our detailed guide
-4. **Customize** using provided CAD files as needed
+3. **Customize** using provided step-by-step files and process
 
 *Compatible with Bambu Labs printers - adjust settings accordingly*
 
@@ -54,14 +53,13 @@ aurius-prosthetics/
 ## 📖 Detailed Guides
 
 - [🖨️ **Printing Guide**](./docs/printing-guide.md) - Step-by-step printing instructions
-- [🔧 **Assembly Guide**](./docs/assembly-guide.md) - Attachment methods and fitting
 - [📋 **Material Specifications**](./docs/material-specs.md) - Filament types and properties
 
 ## 🛣️ Roadmap
 
 - [x] **Phase 1:** Initial prototype development (LiDAR scanning, modeling)
 - [x] **Phase 2:** Testing attachment methods and materials
-- [ ] **Phase 3:** Community feedback integration
+- [x] **Phase 3:** Community feedback integration
 - [ ] **Phase 4:** Medical professional collaboration
 - [ ] **Phase 5:** Industry partnerships and scaling
 
