@@ -1,9 +1,12 @@
 # Aurius Prosthetics 🦻
-**Open-source initiative for 3D-printed prosthetic ears**   
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
---- 
-[🌐 Visit Our Website](aurius.tw) | [📧 Contact Us](mailto:aurius.king@gmail.com)
+
+**Open-source initiative for 3D-printed prosthetic ears**
+
+[🌐 Visit Our Website](https://aurius.tw) | [📧 Contact Us](mailto:aurius.king@gmail.com)
+
 ---
 
 ## About Aurius
@@ -31,7 +34,8 @@ By leveraging innovative materials and user-centered design, we bridge the gap b
 ### Printing Process
 1. **Download** your desired `.3MF` file from the [models folder](./models)
 2. **Print** using TPE/TPU filament for flexibility (PLA works for prototypes)
-3. **Customize** using provided step-by-step files and process
+3. **Assemble** following our detailed guide
+4. **Customize** using provided CAD files as needed
 
 *Compatible with Bambu Labs printers - adjust settings accordingly*
 
@@ -52,14 +56,15 @@ aurius-prosthetics/
 
 ## 📖 Detailed Guides
 
-- [🖨️ **Printing Guide**](./docs/printing-guide.md) - Step-by-step printing instructions
-- [📋 **Material Specifications**](./docs/material-specs.md) - Filament types and properties
+- [🖨️ **Printing Guide**](./HowToPrint.md) - Step-by-step printing instructions
+- [🔧 **Assembly Guide**](./assembly-guide.md) - Attachment methods and fitting  
+- [📋 **Material Specifications**](./material-specs.md) - Filament types and properties
 
 ## 🛣️ Roadmap
 
 - [x] **Phase 1:** Initial prototype development (LiDAR scanning, modeling)
 - [x] **Phase 2:** Testing attachment methods and materials
-- [x] **Phase 3:** Community feedback integration
+- [ ] **Phase 3:** Community feedback integration
 - [ ] **Phase 4:** Medical professional collaboration
 - [ ] **Phase 5:** Industry partnerships and scaling
 
@@ -98,4 +103,4 @@ Special thanks to:
 
 **Made with ❤️ for accessibility and inclusion**
 
-*Aurius Prosthetics - Reimagining the future of prosthetic innovation
+*Aurius Prosthetics - Reimagining the future of prosthetic innovation*
