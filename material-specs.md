@@ -17,8 +17,8 @@
 - **Bed Temperature:** 40-60°C
 - **Print Speed:** 15-25 mm/s (slow for best quality)
 - **Layer Height:** 0.2-0.3mm
-- **Infill:** 20-40% (higher for more durability)
-- **Supports:** Usually not needed due to flexibility
+- **Infill:** 20-40% (higher for more a more resilience in texture)
+- **Supports:** Usually not needed due to the shape of ear prosthetics
 
 ### Alternative: PLA (Rigid - For Prototypes)
 **Use Case:** Testing fit, prototyping, demonstration models
@@ -48,7 +48,7 @@
 - **Prusa i3 MK3S+/MK4**
 - **Ender 3 Series** (with direct drive upgrade recommended)
 - **Ultimaker Series**
-- **Any printer with direct drive extruder**
+- **Any printer with direct drive extruder (Due to difficulty of printing TPE/TPU)**
 
 ### Important Notes:
 - **Direct drive extruders** work best with flexible filaments
@@ -73,7 +73,7 @@
 
 ### Where to Buy:
 - **Recreus (Filaflex):** [filaflex.com](https://filaflex.com)
-- **Amazon:** Search "TPU 82A filament"
+- **Amazon:** Search "TPU 82A filament" There are a wide variety of options
 - **Prusament TPU:** [prusa3d.com](https://prusa3d.com)
 - **eSUN eTPU:** Available at most 3D printing suppliers
 
@@ -90,6 +90,7 @@
 - **Room temperature** storage
 - **Avoid direct sunlight**
 - **TPU can be more sensitive** to moisture than PLA
+- Store TPU in a dry space to ensure optimal printing
 
 ### Print Preparation:
 - **Dry filament** if exposed to humidity
