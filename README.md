@@ -1,37 +1,104 @@
 # Aurius Prosthetics 🦻
-Aurius Prosthetics - Open-source initiative for 3D-printed prosthetic ears.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+**Open-source initiative for 3D-printed prosthetic ears**
 
-Hi, my name is King Oung, and I am the founder of Aurius Prosthetics, an open-source assistive technology initiative. At Aurius, we are focused on revolutionizing accessibility and personalization in prosthetic ear design through cutting-edge 3D printing technology. The goal of this initiative is to provide affordable, accessible, and aesthetically realistic solutions for individuals with microtia, empowering them with greater confidence and self-expression. By leveraging innovative materials and user-centered design, we aim to bridge the gap between medical necessity and unique personal identity, ensuring that every individual has access to high-quality, customizable prosthetics that seamlessly integrate into their lives. **You can check out our website at [aurius.tw] to learn more about our initiative**
+[🌐 Visit Our Website](aurius.tw) | [📧 Contact Us](aurius.king@gmail.com)
 
-## Features 💙
-- Customizable ear designs using flexible TPE/TPU materials
-- Accessible and cost-effective open-sourced designs, easily 3D printed
-- Generated using LiDAR technology, ensuring accurate and proportional prosthetic solutions
-- Magnet/clip-on attachment options
-- Open-source CAD files for community collaboration  
-- Lightweight and skin-like texture
+---
 
-## Usage ❤️
-- Download desired .3MF files for direct printing (Each model is different in shape/size)
-- Print the prosthetic ear using a 3D printer with TPE/TPU filament for flexibility (PLA also works as just a model/replica)  
-- Follow the assembly guide to attach the ear using the chosen method (magnetic, clip-on, suction).  
-- Customize and alter the design as needed with CAD files provided in the `models` folder.
+## About Aurius
 
-## Materials and Design 💡
-- Recommended filament: Filaflex 82A or similar TPE/TPU 
-- Compatible with Bambu Labs Printers, adjust printer settings accordingly when using the print files
-- CAD files available in STL and 3MF formats
+Hi, I'm King Oung, founder of Aurius Prosthetics. We're revolutionizing accessibility in prosthetic ear design through cutting-edge 3D printing technology. Our mission is to provide **affordable, accessible, and aesthetically realistic** prosthetic solutions for individuals with microtia, empowering them with greater confidence and self-expression.
 
-## Roadmap 🗺️
-- [x] Initial prototype development (LiDAR, designing/modelling, developing a working formula)
-- [x] Testing and refinement of attachment methods, different materials, shapes, and sizes
-- [ ] Community feedback and design improvements  
-- [ ] Collaboration with medical professionals for ergonomic adjustments and potential industry contributions  
+By leveraging innovative materials and user-centered design, we bridge the gap between medical necessity and personal identity, ensuring everyone has access to high-quality, customizable prosthetics.
 
-## Contributing 🙂
-We welcome contributions! Please open an issue or submit a pull request. Follow the guidelines in `CONTRIBUTING.md`.  
+## ✨ Key Features
 
-## License  
-This project is licensed under the MIT License. See the `LICENSE` file for more information.  
+- **🎨 Customizable Design** - Personalized ear shapes and sizes
+- **💰 Cost-Effective** - Open-source designs reduce costs dramatically
+- **📐 Precision Crafted** - Generated using LiDAR technology for accurate proportions
+- **🧲 Multiple Attachment Options** - Magnetic, clip-on, or suction mounting
+- **🤝 Community-Driven** - Open-source CAD files for collaboration
+- **🪶 Lightweight & Realistic** - Skin-like texture using flexible materials
 
+## 🚀 Quick Start
 
+### What You'll Need
+- 3D printer compatible with flexible filaments
+- **Recommended Filament:** Filaflex 82A or similar TPE/TPU
+- Basic assembly tools
+
+### Printing Process
+1. **Download** your desired `.3MF` file from the [models folder](./models)
+2. **Print** using TPE/TPU filament for flexibility (PLA works for prototypes)
+3. **Assemble** following our detailed guide
+4. **Customize** using provided CAD files as needed
+
+*Compatible with Bambu Labs printers - adjust settings accordingly*
+
+## 📁 Repository Structure
+
+```
+aurius-prosthetics/
+├── models/                 # 3D printable files
+│   ├── 3MF/               # Ready-to-print files
+│   └── STL/               # Standard CAD files
+├── docs/                  # Documentation
+│   ├── printing-guide.md
+│   ├── assembly-guide.md
+│   └── material-specs.md
+├── images/                # Photos and diagrams
+└── examples/              # Sample prints and cases
+```
+
+## 📖 Detailed Guides
+
+- [🖨️ **Printing Guide**](./docs/printing-guide.md) - Step-by-step printing instructions
+- [🔧 **Assembly Guide**](./docs/assembly-guide.md) - Attachment methods and fitting
+- [📋 **Material Specifications**](./docs/material-specs.md) - Filament types and properties
+
+## 🛣️ Roadmap
+
+- [x] **Phase 1:** Initial prototype development (LiDAR scanning, modeling)
+- [x] **Phase 2:** Testing attachment methods and materials
+- [ ] **Phase 3:** Community feedback integration
+- [ ] **Phase 4:** Medical professional collaboration
+- [ ] **Phase 5:** Industry partnerships and scaling
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Whether you're a:
+- **Developer** - Improve CAD designs or documentation
+- **Medical Professional** - Provide clinical insights
+- **User** - Share feedback and experiences
+- **Maker** - Test prints and suggest improvements
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) and feel free to:
+- 🐛 [Report issues](../../issues)
+- 💡 [Suggest features](../../issues)
+- 🔄 [Submit pull requests](../../pulls)
+
+## 💬 Community & Support
+
+- **Questions?** Open an [issue](../../issues) or reach out directly
+- **Success Stories** - We'd love to hear about your prints!
+- **Medical Consultation** - Always consult healthcare professionals for medical advice
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+Special thanks to:
+- The open-source community for inspiration and support
+- Medical professionals providing guidance
+- Early adopters and testers
+- Everyone working to make assistive technology more accessible
+
+---
+
+**Made with ❤️ for accessibility and inclusion**
+
+*Aurius Prosthetics - Reimagining the future of prosthetic innovation
