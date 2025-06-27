@@ -1,4 +1,4 @@
-# Contributing to Aurius
+# Contributing to Aurius 📝
 
 We welcome contributions to this project! If you’d like to help out, please reach out to me through GitHub or via email.
 
