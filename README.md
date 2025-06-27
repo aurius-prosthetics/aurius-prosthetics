@@ -11,7 +11,7 @@
 
 ## About Aurius
 
-Hi, I'm King Oung, founder of Aurius Prosthetics. We're revolutionizing accessibility in prosthetic ear design through cutting-edge 3D printing technology. Our mission is to provide **affordable, accessible, and aesthetically realistic** prosthetic solutions for individuals with microtia, empowering them with greater confidence and self-expression.
+Hi everyone, I'm King Oung, founder of Aurius Prosthetics. We're revolutionizing accessibility in prosthetic ear design through cutting-edge 3D printing technology. Our mission is to provide **affordable, accessible, and aesthetically realistic** prosthetic solutions for individuals with microtia, empowering them with greater confidence and self-expression.
 
 By leveraging innovative materials and user-centered design, we bridge the gap between medical necessity and personal identity, ensuring everyone has access to high-quality, customizable prosthetics.
 
