@@ -1,4 +1,4 @@
-# How to 3D Print Prosethetic Ears
+# How to 3D Print Prosethetic Ears 🦻
 
 ## Downloading Files & Presets
   Download the appropriate files in the **models** folder. I have included a couple different template versions that you can choose from, and they are all in the .3mf file, which can be directly exported to Bambu Studio. After downloading the file and opening it in Bambu Studio, download the appropriate **print preset** and **filament preset** and import it to the Bambu slicer. 
