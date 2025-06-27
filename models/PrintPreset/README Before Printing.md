@@ -7,7 +7,7 @@ Printing with TPU, such as Filaflex 82a can mimic the softness of a real ear, bu
 Settings for printing TPU: TPU needs to be tuned with a lot of different settings: print speed, nozzle and bed heating, speed, fan cooling settings, length, retraction, flow, layer height, etc.
 TPU also needs to be especially calibrated/fitted for your printer, for the Bambu Labs A1, you cannot use AMS and you have to manually input the external filament as TPU in settings so that your printer know it is TPU.
 
-Some problems I encountered on my first print:
+Below are some problems I encountered on my first print:
 Bed Adhesion: TPU sticks to the bed, it is hard to scrape off the print without damaging the bottom layer
 Stringing/inconsistent flow, the flow of the filament can become inconsistent due to the softness of the filament, it can get clogged etc, You cannot print on fast speeds, around 30 mms for all parts is a good.
 Nozzle width, TPU seems so shrink when printing, there are a lot of small holes that appear when you print, which has to do with flow, nozzle sizes, and MOST IMPORTANTLY: Print Speed.
