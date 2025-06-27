@@ -1,4 +1,4 @@
-# Disclaimers Before Printing
+# Disclaimers Before Printing 
 Here are a few issues and tips that I found while experimenting, which will help you reduce errors and get better quality print results
 
 ## Printing with TPU
