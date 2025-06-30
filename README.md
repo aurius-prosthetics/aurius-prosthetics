@@ -81,7 +81,7 @@ We welcome contributions from the community! Whether you're a:
 
 ## 💬 Community & Support
 
-- **Questions?** Reach out directly or open an issue
+- **Questions?** Reach out directly to us at [aurius.king@gmail.com] or on social media
 - **Success Stories** - We'd love to hear about your prints!
 - **Medical Consultation** - Always consult healthcare professionals for medical advice
 
