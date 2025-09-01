@@ -3,7 +3,7 @@ Here are a few issues and tips that I found while experimenting, which will help
 
 ## Printing with TPU
 Printing with PLA works well, it is consistent, strong, and cheap/accessible. However, it is hard and doesn’t mimic a real ear 
-Printing with TPU, such as Filaflex 82a can mimic the softness of a real ear, but it is EXTEREMELY DIFFICULT to get right, here are some things I encountered on my first print:
+Printing with TPU, such as Filaflex 82a can mimic the softness of a real ear, but it is very difficult to get right, here are some things I encountered on my first print:
 Settings for printing TPU: TPU needs to be tuned with a lot of different settings: print speed, nozzle and bed heating, speed, fan cooling settings, length, retraction, flow, layer height, etc.
 TPU also needs to be especially calibrated/fitted for your printer, for the Bambu Labs A1, you cannot use AMS and you have to manually input the external filament as TPU in settings so that your printer know it is TPU.
 
