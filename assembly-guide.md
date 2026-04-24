@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide walks you through the three main attachment methods for your Aurius prosthetic ear. Choose the method that best suits your comfort level and lifestyle needs.
+This guide walks you through the three main attachment methods for your open-source Aurius prosthetic ear. Choose the method that best suits your comfort level and lifestyle needs.
 
 ## Attachment Methods
 
