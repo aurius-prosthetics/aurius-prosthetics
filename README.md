@@ -5,7 +5,7 @@
 
 **Open-source initiative for 3D-printed prosthetic ears**
 
-[🌐 Visit Our Website](https://aurius.tw) | [📧 Contact Us](mailto:aurius.king@gmail.com)
+[📧 Contact Us](mailto:aurius.king@gmail.com)
 
 ---
 
