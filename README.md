@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
-**Open-source initiative for 3D-printed prosthetic ears**
+**Open-source initiative for 3D-printed prosthetics**
 
 [📧 Contact Us](mailto:aurius.king@gmail.com)
 
@@ -69,7 +69,6 @@ aurius-prosthetics/
 - [x] **Phase 2:** Testing attachment methods and materials
 - [x] **Phase 3:** Community feedback integration
 - [x] **Phase 4:** Global Medical professional collaboration
-- [ ] **Phase 5:** Industry partnerships and scaling
 
 ## 🤝 Contributing
 
