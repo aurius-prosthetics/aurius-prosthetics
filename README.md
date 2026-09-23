@@ -6,9 +6,8 @@
 **Open-source initiative for 3D-printed prosthetics**
 
 [📧 Contact Us](mailto:aurius.king@gmail.com)
-[Website] (https://aurius-prosthetics.github.io/aurius-prosthetics/#home)
 ---
-
+[Website] (https://aurius-prosthetics.github.io/aurius-prosthetics/#home)
 ## About Aurius
 
 Hi, I'm King Oung, founder of Aurius Prosthetics. We're revolutionizing accessibility in prosthetic ear design through cutting-edge 3D printing technology. Our mission is to provide **affordable, accessible, and aesthetically realistic** prosthetic solutions for individuals with microtia, empowering them with greater confidence and self-expression.
