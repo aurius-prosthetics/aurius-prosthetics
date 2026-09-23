@@ -6,7 +6,7 @@
 **Open-source initiative for 3D-printed prosthetics**
 
 [📧 Contact Us](mailto:aurius.king@gmail.com)
-
+[Website] (https://aurius-prosthetics.github.io/aurius-prosthetics/#home)
 ---
 
 ## About Aurius
