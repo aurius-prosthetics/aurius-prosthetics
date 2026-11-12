@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-12T00:00:00Z",
+  "title": "Design System: Aurius Prosthetics",
+  "extensions": {
+    "colorMeta": {
+      "ink-black": {"role": "neutral", "displayName": "Ink Black", "canonical": "#111111", "tonalRamp": ["#000000","#111111","#1C1C1C","#555555","#6B6B6B","#949494","#E8E8E8","#FAFAFA"]},
+      "paper": {"role": "neutral", "displayName": "Paper", "canonical": "#FAFAFA", "tonalRamp": ["#111111","#1C1C1C","#555555","#6B6B6B","#949494","#E8E8E8","#F4F4F4","#FAFAFA"]}
+    },
+    "typographyMeta": {
+      "display": {"displayName": "Display", "purpose": "Hero title; light 300 with one 600 phrase."},
+      "label": {"displayName": "Label", "purpose": "Tracked uppercase eyebrows, nav, buttons, spec keys."}
+    },
+    "shadows": [],
+    "motion": [
+      {"name": "ease-fade", "value": "opacity 0.45s ease", "purpose": "Page switch fade."},
+      {"name": "reveal", "value": "opacity 0.7s ease, transform 0.7s ease", "purpose": "Scroll reveal, 28px rise; disabled under reduced motion."}
+    ],
+    "breakpoints": [{"name": "mobile", "value": "900px"}]
+  },
+  "components": [
+    {"name": "Light Button", "kind": "button", "refersTo": "button-light", "description": "Primary action on dark bands.", "html": "<button class=\"ds-btn-light\">LEARN MORE</button>", "css": ".ds-btn-light{background:#fff;color:#1C1C1C;border:none;font-family:Raleway,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.16em;padding:.9rem 2.2rem;cursor:pointer;transition:background-color .25s ease}.ds-btn-light:hover{background:#E8E8E8}.ds-btn-light:focus-visible{outline:2px solid #fff;outline-offset:4px}"},
+    {"name": "Dark Button", "kind": "button", "refersTo": "button-dark", "description": "Primary action on light bands.", "html": "<button class=\"ds-btn-dark\">VIEW THE GALLERY</button>", "css": ".ds-btn-dark{background:#1C1C1C;color:#fff;border:none;font-family:Raleway,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.16em;padding:.9rem 2.2rem;cursor:pointer;transition:background-color .25s ease}.ds-btn-dark:hover{background:#000}.ds-btn-dark:focus-visible{outline:2px solid #1C1C1C;outline-offset:4px}"}
+  ],
+  "narrative": {
+    "northStar": "The Clinical Monograph",
+    "overview": "A monochrome, almost entirely typographic system that lets photography carry all colour and emotion. Calm, credible, low density.",
+    "keyCharacteristics": ["One typeface (Raleway)", "Strictly neutral palette", "Square corners, hairlines, zero shadows", "Alternating dark and light bands", "Quiet motion"],
+    "rules": [
+      {"name": "The No-Accent Rule", "body": "Never introduce a brand colour.", "section": "colors"},
+      {"name": "The Readable Grey Rule", "body": "Text on dark never below 55% white; small text on light never lighter than #6B6B6B.", "section": "colors"},
+      {"name": "The Weight-Contrast Rule", "body": "Headlines pair a 300 phrase with one 600/700 phrase.", "section": "typography"},
+      {"name": "The Flat-By-Default Rule", "body": "Nothing lifts; no shadows.", "section": "elevation"}
+    ],
+    "dos": ["Do keep every surface greyscale; let photography be the colour.", "Do respect prefers-reduced-motion.", "Do keep focus outlines visible on every interactive element."],
+    "donts": ["Don't add shadows, rounded corners, or an accent colour.", "Don't introduce a second typeface.", "Don't alter the wordmark's weight, tracking or case."]
+  }
+}

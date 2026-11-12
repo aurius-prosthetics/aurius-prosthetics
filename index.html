@@ -27,7 +27,7 @@
       --white:    #FFFFFF;
       --black:    #000000;
       --dark:     #1C1C1C;
-      --mid:      #949494;
+      --mid:      #6B6B6B;
       --light:    #E8E8E8;
       --border:   rgba(255,255,255,0.12);
       --font: 'Raleway', sans-serif;
@@ -40,6 +40,7 @@
       background: var(--bg);
       color: var(--dark);
       -webkit-font-smoothing: antialiased;
+      font-variant-numeric: lining-nums;
       overflow-x: hidden;
     }
 
@@ -81,11 +82,11 @@
       font-weight: 500;
       letter-spacing: 0.15em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255,255,255,0.72);
       text-decoration: none;
       cursor: pointer;
       transition: color 0.25s ease;
-      padding-bottom: 2px;
+      padding: 12px 0 2px;
       border-bottom: 1px solid transparent;
     }
 
@@ -133,6 +134,7 @@
     .hero {
       position: relative;
       height: calc(100vh - 72px);
+      height: calc(100svh - 72px);
       min-height: 500px;
       display: flex;
       align-items: center;
@@ -173,7 +175,7 @@
       font-weight: 600;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.7);
       margin-bottom: 1.75rem;
       display: block;
     }
@@ -187,16 +189,18 @@
       margin-bottom: 1.75rem;
     }
 
+    .hero-title, .section-title, .gallery-info-title, .contact-info-title { text-wrap: balance; }
+
     .hero-title strong {
       font-weight: 600;
     }
 
     .hero-subtitle {
       font-size: 1rem;
-      font-weight: 300;
-      letter-spacing: 0.05em;
+      font-weight: 400;
+      letter-spacing: 0.02em;
       line-height: 1.75;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255,255,255,0.78);
       max-width: 580px;
       margin: 0 auto 2.5rem;
     }
@@ -222,7 +226,7 @@
       text-decoration: none;
       padding: 0.9rem 2.2rem;
       cursor: pointer;
-      transition: all 0.25s ease;
+      transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
       border: none;
     }
 
@@ -330,7 +334,7 @@
 
     .section-dark .section-eyebrow,
     .section-mid .section-eyebrow {
-      color: rgba(255,255,255,0.4);
+      color: rgba(255,255,255,0.62);
     }
 
     .section-title {
@@ -347,16 +351,17 @@
 
     .section-body {
       font-size: 0.9375rem;
-      font-weight: 300;
-      letter-spacing: 0.03em;
-      line-height: 1.85;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.8;
       color: #555;
       max-width: 640px;
+      text-wrap: pretty;
     }
 
     .section-dark .section-body,
     .section-mid .section-body {
-      color: rgba(255,255,255,0.55);
+      color: rgba(255,255,255,0.72);
     }
 
     /* ─── HOME: MISSION STRIP ─── */
@@ -408,7 +413,7 @@
       font-weight: 600;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.25);
+      color: rgba(255,255,255,0.55);
       margin-bottom: 1.5rem;
       display: block;
     }
@@ -433,9 +438,10 @@
 
     .process-desc {
       font-size: 0.875rem;
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.75;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.7);
+      text-wrap: pretty;
     }
 
     /* ─── HOME: STAT BLOCK ─── */
@@ -449,7 +455,7 @@
     .stat-old {
       font-size: clamp(2.5rem, 5vw, 4rem);
       font-weight: 300;
-      color: rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.5);
       text-decoration: line-through;
       letter-spacing: 0.02em;
       line-height: 1;
@@ -457,7 +463,7 @@
 
     .stat-arrow {
       font-size: 1.75rem;
-      color: rgba(255,255,255,0.3);
+      color: rgba(255,255,255,0.5);
       margin: 0.5rem 0;
     }
 
@@ -474,7 +480,7 @@
       font-weight: 500;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.35);
+      color: rgba(255,255,255,0.6);
       margin-top: 1rem;
     }
 
@@ -490,8 +496,9 @@
       font-weight: 300;
       letter-spacing: 0.04em;
       line-height: 1.5;
-      color: rgba(255,255,255,0.8);
+      color: rgba(255,255,255,0.85);
       max-width: 760px;
+      text-wrap: balance;
       margin: 0 auto;
     }
 
@@ -582,19 +589,21 @@
     .about-lead {
       font-size: 1.15rem;
       font-weight: 300;
-      letter-spacing: 0.03em;
-      line-height: 1.85;
+      letter-spacing: 0.02em;
+      line-height: 1.8;
       color: var(--dark);
       margin-bottom: 2rem;
+      text-wrap: pretty;
     }
 
     .about-body {
       font-size: 0.9375rem;
-      font-weight: 300;
-      letter-spacing: 0.03em;
-      line-height: 1.85;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.8;
       color: #555;
       margin-bottom: 1.5rem;
+      text-wrap: pretty;
     }
 
     .about-body strong {
@@ -649,8 +658,8 @@
 
     .collab-role {
       font-size: 0.8rem;
-      font-weight: 300;
-      letter-spacing: 0.04em;
+      font-weight: 400;
+      letter-spacing: 0.02em;
       line-height: 1.5;
       color: var(--mid);
     }
@@ -738,11 +747,12 @@
 
     .gallery-info-body {
       font-size: 0.9375rem;
-      font-weight: 300;
-      letter-spacing: 0.03em;
-      line-height: 1.85;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.8;
       color: #555;
       margin-bottom: 1.25rem;
+      text-wrap: pretty;
     }
 
     .specs-table {
@@ -787,11 +797,11 @@
       align-items: center;
     }
 
-    .price-left .section-eyebrow { color: rgba(255,255,255,0.35); }
+    .price-left .section-eyebrow { color: rgba(255,255,255,0.62); }
 
     .price-left .section-title { color: var(--white); }
 
-    .price-left .section-body { color: rgba(255,255,255,0.5); }
+    .price-left .section-body { color: rgba(255,255,255,0.72); }
 
     /* ─── CONTACT PAGE ─── */
     .contact-hero {
@@ -819,7 +829,7 @@
       font-weight: 300;
       letter-spacing: 0.04em;
       line-height: 1.75;
-      color: rgba(255,255,255,0.5);
+      color: rgba(255,255,255,0.72);
       max-width: 540px;
     }
 
@@ -847,10 +857,10 @@
 
     .role-desc {
       font-size: 0.875rem;
-      font-weight: 300;
-      letter-spacing: 0.03em;
+      font-weight: 400;
+      letter-spacing: 0.01em;
       line-height: 1.7;
-      color: #666;
+      color: #595959;
     }
 
     /* ─── CONTACT: FORM AREA ─── */
@@ -871,11 +881,12 @@
 
     .contact-info-body {
       font-size: 0.9375rem;
-      font-weight: 300;
-      letter-spacing: 0.03em;
-      line-height: 1.85;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+      line-height: 1.8;
       color: #555;
       margin-bottom: 2rem;
+      text-wrap: pretty;
     }
 
     .contact-links-stack {
@@ -924,8 +935,8 @@
       flex-direction: column;
       justify-content: center;
       gap: 5px;
-      width: 36px;
-      height: 36px;
+      width: 44px;
+      height: 44px;
       cursor: pointer;
       background: none;
       border: none;
@@ -951,7 +962,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      top: 72px;
+      top: calc(72px + env(safe-area-inset-top, 0px));
       background: rgba(17,17,17,0.98);
       backdrop-filter: blur(12px);
       z-index: 999;
@@ -985,6 +996,25 @@
 
     .mobile-menu a:first-child { border-top: 1px solid rgba(255,255,255,0.07); }
     .mobile-menu a:hover, .mobile-menu a.active { color: var(--white); background: rgba(255,255,255,0.05); }
+
+    /* ─── FOCUS & MOTION ─── */
+    nav a:focus-visible, .nav-brand:focus-visible, .hamburger:focus-visible,
+    .mobile-menu a:focus-visible, .btn:focus-visible, .ticker a:focus-visible {
+      outline: 2px solid var(--white);
+      outline-offset: 4px;
+    }
+
+    .contact-link-item:focus-visible, .btn-dark:focus-visible, .btn-outline-dark:focus-visible {
+      outline: 2px solid var(--dark);
+      outline-offset: 4px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .page { transition: none; }
+      .ticker-dot { animation: none; }
+    }
 
     /* ─── MOBILE ─── */
     @media (max-width: 900px) {
@@ -1063,15 +1093,15 @@
 <body>
 
   <!-- ── NAV ── -->
-  <nav>
-    <span class="nav-brand" onclick="showPage('home')">Aurius Prosthetics</span>
+  <nav aria-label="Main">
+    <span class="nav-brand" onclick="showPage('home')" role="link" tabindex="0">Aurius Prosthetics</span>
     <ul class="nav-links">
       <li><a onclick="showPage('home')" id="nav-home" class="active">Home</a></li>
       <li><a onclick="showPage('about')" id="nav-about">About</a></li>
       <li><a onclick="showPage('gallery')" id="nav-gallery">Gallery</a></li>
       <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
     </ul>
-    <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
       <span></span><span></span><span></span>
     </button>
   </nav>
@@ -1124,7 +1154,7 @@
           Our mission is to revolutionize accessibility and personalization in prosthetic ear design through cutting-edge 3D printing technology. We strive to provide <strong>affordable</strong>, <strong>accessible</strong>, and aesthetically realistic solutions for individuals with microtia.
         </p>
         <br><br>
-        <p class="section-body reveal reveal-delay-3" style="color:#777">
+        <p class="section-body reveal reveal-delay-3" style="color:#666">
           1 in 6,000 people live with microtia, a congenital condition where the external ear is absent or underdeveloped. By leveraging innovative materials and user-centered design, we aim to make reconstructive technology accessible to the entire world.
         </p>
         <br>
@@ -1137,8 +1167,8 @@
           A traditional prosthetic ear costs between $4,000 and $8,000 and is rarely covered by insurance. Our goal is to change that — without compromising on quality, comfort, or aesthetics.
         </p>
         <div class="stat-block reveal reveal-delay-3" style="color:var(--dark)">
-          <span class="stat-old" style="color:#ccc">$4,000 – $8,000</span>
-          <span class="stat-arrow" style="color:#bbb">↓</span>
+          <span class="stat-old" style="color:#8a8a8a">$4,000 – $8,000</span>
+          <span class="stat-arrow" style="color:#8a8a8a">↓</span>
           <span class="stat-new" style="color:var(--dark)">Under $50</span>
           <span class="stat-caption" style="color:var(--mid)">Our target cost per prosthetic</span>
         </div>
@@ -1257,7 +1287,7 @@
 
     <!-- Hero -->
     <div class="gallery-hero">
-      <video class="gallery-hero-video" autoplay muted loop playsinline>
+      <video class="gallery-hero-video" autoplay muted loop playsinline aria-hidden="true">
         <source src="images/collaboration.mov" type="video/mp4">
       </video>
       <div class="gallery-hero-overlay"></div>
@@ -1402,12 +1432,14 @@
     hamburger.addEventListener('click', () => {
       const isOpen = mobileMenu.classList.toggle('open');
       hamburger.classList.toggle('open', isOpen);
+      hamburger.setAttribute('aria-expanded', isOpen);
       document.body.style.overflow = isOpen ? 'hidden' : '';
     });
 
     function mobileNav(name) {
       mobileMenu.classList.remove('open');
       hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
       document.querySelectorAll('.mobile-menu a').forEach(a => a.classList.remove('active'));
       const mob = document.getElementById('mob-' + name);
@@ -1421,6 +1453,13 @@
       const mob = document.getElementById('mob-' + name);
       if (mob) mob.classList.add('active');
     }
+
+    // ─── KEYBOARD ACCESS: anchors that navigate via onclick have no href ───
+    document.querySelectorAll('a[onclick], .nav-brand').forEach(el => {
+      el.setAttribute('tabindex', '0');
+      if (el.tagName === 'A') el.setAttribute('role', 'link');
+      el.addEventListener('keydown', e => { if (e.key === 'Enter') el.click(); });
+    });
 
     // ─── PAGE SWITCHING ───
     function showPage(name) {
